@@ -1,0 +1,1 @@
+// JavaScript Documentfunction indexlogin(){	var pass= document.getElementById("password").value;	if(pass==""||pass==null){		alert("口号?怎么不输入！")		return false;		}else{	if(pass=="52113"){		return true;		}else{		alert("密码错误")			return false;			}		}	}
